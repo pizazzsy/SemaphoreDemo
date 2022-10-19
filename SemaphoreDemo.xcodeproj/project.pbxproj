@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046C7C8B28FFA0900079267B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046C7C8A28FFA0900079267B /* AppDelegate.m */; };
+		046C7C8E28FFA0900079267B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046C7C8D28FFA0900079267B /* SceneDelegate.m */; };
+		046C7C9128FFA0900079267B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046C7C9028FFA0900079267B /* ViewController.m */; };
+		046C7C9428FFA0900079267B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046C7C9228FFA0900079267B /* Main.storyboard */; };
+		046C7C9628FFA0930079267B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046C7C9528FFA0930079267B /* Assets.xcassets */; };
+		046C7C9928FFA0930079267B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046C7C9728FFA0930079267B /* LaunchScreen.storyboard */; };
+		046C7C9C28FFA0930079267B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046C7C9B28FFA0930079267B /* main.m */; };
+		046C7CA628FFA0930079267B /* SemaphoreDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046C7CA528FFA0930079267B /* SemaphoreDemoTests.m */; };
+		046C7CB028FFA0930079267B /* SemaphoreDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046C7CAF28FFA0930079267B /* SemaphoreDemoUITests.m */; };
+		046C7CB228FFA0930079267B /* SemaphoreDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046C7CB128FFA0930079267B /* SemaphoreDemoUITestsLaunchTests.m */; };
+		2FDFAA0A5F38B583FE458BA1 /* Pods_SemaphoreDemo_SemaphoreDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9954BFF90D6AEFCE3AB2D503 /* Pods_SemaphoreDemo_SemaphoreDemoUITests.framework */; };
+		48651F4CC71CDD9F5D23AA26 /* Pods_SemaphoreDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D104A06278C2A1356E7964 /* Pods_SemaphoreDemoTests.framework */; };
+		F0BCEC2828D3FE4056812673 /* Pods_SemaphoreDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCAAB8B6DCB013BFD979B9C /* Pods_SemaphoreDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046C7CA228FFA0930079267B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046C7C7E28FFA0900079267B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046C7C8528FFA0900079267B;
+			remoteInfo = SemaphoreDemo;
+		};
+		046C7CAC28FFA0930079267B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046C7C7E28FFA0900079267B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046C7C8528FFA0900079267B;
+			remoteInfo = SemaphoreDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046C7C8628FFA0900079267B /* SemaphoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SemaphoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046C7C8928FFA0900079267B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		046C7C8A28FFA0900079267B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		046C7C8C28FFA0900079267B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		046C7C8D28FFA0900079267B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		046C7C8F28FFA0900079267B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		046C7C9028FFA0900079267B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		046C7C9328FFA0900079267B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046C7C9528FFA0930079267B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046C7C9828FFA0930079267B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046C7C9A28FFA0930079267B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046C7C9B28FFA0930079267B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		046C7CA128FFA0930079267B /* SemaphoreDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SemaphoreDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046C7CA528FFA0930079267B /* SemaphoreDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SemaphoreDemoTests.m; sourceTree = "<group>"; };
+		046C7CAB28FFA0930079267B /* SemaphoreDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SemaphoreDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046C7CAF28FFA0930079267B /* SemaphoreDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SemaphoreDemoUITests.m; sourceTree = "<group>"; };
+		046C7CB128FFA0930079267B /* SemaphoreDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SemaphoreDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		30D104A06278C2A1356E7964 /* Pods_SemaphoreDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SemaphoreDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB26B7431F43A95F303DC22 /* Pods-SemaphoreDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SemaphoreDemo.release.xcconfig"; path = "Target Support Files/Pods-SemaphoreDemo/Pods-SemaphoreDemo.release.xcconfig"; sourceTree = "<group>"; };
+		87EF9E7C0A63FC662BD17762 /* Pods-SemaphoreDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SemaphoreDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-SemaphoreDemoTests/Pods-SemaphoreDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CCAAB8B6DCB013BFD979B9C /* Pods_SemaphoreDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SemaphoreDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9954BFF90D6AEFCE3AB2D503 /* Pods_SemaphoreDemo_SemaphoreDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SemaphoreDemo_SemaphoreDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09A8C70C6F537394BBC0313 /* Pods-SemaphoreDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SemaphoreDemo.debug.xcconfig"; path = "Target Support Files/Pods-SemaphoreDemo/Pods-SemaphoreDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DCF7A288007B9694636A9A8D /* Pods-SemaphoreDemo-SemaphoreDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SemaphoreDemo-SemaphoreDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-SemaphoreDemo-SemaphoreDemoUITests/Pods-SemaphoreDemo-SemaphoreDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E9B405D8F42EB61CC4639F38 /* Pods-SemaphoreDemo-SemaphoreDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SemaphoreDemo-SemaphoreDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SemaphoreDemo-SemaphoreDemoUITests/Pods-SemaphoreDemo-SemaphoreDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F63E1F9A82B1E8486CE5D945 /* Pods-SemaphoreDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SemaphoreDemoTests.release.xcconfig"; path = "Target Support Files/Pods-SemaphoreDemoTests/Pods-SemaphoreDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046C7C8328FFA0900079267B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BCEC2828D3FE4056812673 /* Pods_SemaphoreDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046C7C9E28FFA0930079267B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48651F4CC71CDD9F5D23AA26 /* Pods_SemaphoreDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046C7CA828FFA0930079267B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FDFAA0A5F38B583FE458BA1 /* Pods_SemaphoreDemo_SemaphoreDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046C7C7D28FFA0900079267B = {
+			isa = PBXGroup;
+			children = (
+				046C7C8828FFA0900079267B /* SemaphoreDemo */,
+				046C7CA428FFA0930079267B /* SemaphoreDemoTests */,
+				046C7CAE28FFA0930079267B /* SemaphoreDemoUITests */,
+				046C7C8728FFA0900079267B /* Products */,
+				1110F17E7CCB49DCCD42C722 /* Pods */,
+				FDA80D26EC09D150E409DCCD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		046C7C8728FFA0900079267B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046C7C8628FFA0900079267B /* SemaphoreDemo.app */,
+				046C7CA128FFA0930079267B /* SemaphoreDemoTests.xctest */,
+				046C7CAB28FFA0930079267B /* SemaphoreDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046C7C8828FFA0900079267B /* SemaphoreDemo */ = {
+			isa = PBXGroup;
+			children = (
+				046C7C8928FFA0900079267B /* AppDelegate.h */,
+				046C7C8A28FFA0900079267B /* AppDelegate.m */,
+				046C7C8C28FFA0900079267B /* SceneDelegate.h */,
+				046C7C8D28FFA0900079267B /* SceneDelegate.m */,
+				046C7C8F28FFA0900079267B /* ViewController.h */,
+				046C7C9028FFA0900079267B /* ViewController.m */,
+				046C7C9228FFA0900079267B /* Main.storyboard */,
+				046C7C9528FFA0930079267B /* Assets.xcassets */,
+				046C7C9728FFA0930079267B /* LaunchScreen.storyboard */,
+				046C7C9A28FFA0930079267B /* Info.plist */,
+				046C7C9B28FFA0930079267B /* main.m */,
+			);
+			path = SemaphoreDemo;
+			sourceTree = "<group>";
+		};
+		046C7CA428FFA0930079267B /* SemaphoreDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				046C7CA528FFA0930079267B /* SemaphoreDemoTests.m */,
+			);
+			path = SemaphoreDemoTests;
+			sourceTree = "<group>";
+		};
+		046C7CAE28FFA0930079267B /* SemaphoreDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046C7CAF28FFA0930079267B /* SemaphoreDemoUITests.m */,
+				046C7CB128FFA0930079267B /* SemaphoreDemoUITestsLaunchTests.m */,
+			);
+			path = SemaphoreDemoUITests;
+			sourceTree = "<group>";
+		};
+		1110F17E7CCB49DCCD42C722 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A09A8C70C6F537394BBC0313 /* Pods-SemaphoreDemo.debug.xcconfig */,
+				7DB26B7431F43A95F303DC22 /* Pods-SemaphoreDemo.release.xcconfig */,
+				E9B405D8F42EB61CC4639F38 /* Pods-SemaphoreDemo-SemaphoreDemoUITests.debug.xcconfig */,
+				DCF7A288007B9694636A9A8D /* Pods-SemaphoreDemo-SemaphoreDemoUITests.release.xcconfig */,
+				87EF9E7C0A63FC662BD17762 /* Pods-SemaphoreDemoTests.debug.xcconfig */,
+				F63E1F9A82B1E8486CE5D945 /* Pods-SemaphoreDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FDA80D26EC09D150E409DCCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CCAAB8B6DCB013BFD979B9C /* Pods_SemaphoreDemo.framework */,
+				9954BFF90D6AEFCE3AB2D503 /* Pods_SemaphoreDemo_SemaphoreDemoUITests.framework */,
+				30D104A06278C2A1356E7964 /* Pods_SemaphoreDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046C7C8528FFA0900079267B /* SemaphoreDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046C7CB528FFA0930079267B /* Build configuration list for PBXNativeTarget "SemaphoreDemo" */;
+			buildPhases = (
+				10C6EAAC26A1DD2BF677746B /* [CP] Check Pods Manifest.lock */,
+				046C7C8228FFA0900079267B /* Sources */,
+				046C7C8328FFA0900079267B /* Frameworks */,
+				046C7C8428FFA0900079267B /* Resources */,
+				EB49976A784D782BFB2B7DE8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SemaphoreDemo;
+			productName = SemaphoreDemo;
+			productReference = 046C7C8628FFA0900079267B /* SemaphoreDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046C7CA028FFA0930079267B /* SemaphoreDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046C7CB828FFA0930079267B /* Build configuration list for PBXNativeTarget "SemaphoreDemoTests" */;
+			buildPhases = (
+				C1286043E2B0F2144E0BDF77 /* [CP] Check Pods Manifest.lock */,
+				046C7C9D28FFA0930079267B /* Sources */,
+				046C7C9E28FFA0930079267B /* Frameworks */,
+				046C7C9F28FFA0930079267B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046C7CA328FFA0930079267B /* PBXTargetDependency */,
+			);
+			name = SemaphoreDemoTests;
+			productName = SemaphoreDemoTests;
+			productReference = 046C7CA128FFA0930079267B /* SemaphoreDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046C7CAA28FFA0930079267B /* SemaphoreDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046C7CBB28FFA0930079267B /* Build configuration list for PBXNativeTarget "SemaphoreDemoUITests" */;
+			buildPhases = (
+				D970F17D1918B41C6ECC8B51 /* [CP] Check Pods Manifest.lock */,
+				046C7CA728FFA0930079267B /* Sources */,
+				046C7CA828FFA0930079267B /* Frameworks */,
+				046C7CA928FFA0930079267B /* Resources */,
+				F7C8BEC1FD5953C86156DE50 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046C7CAD28FFA0930079267B /* PBXTargetDependency */,
+			);
+			name = SemaphoreDemoUITests;
+			productName = SemaphoreDemoUITests;
+			productReference = 046C7CAB28FFA0930079267B /* SemaphoreDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046C7C7E28FFA0900079267B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					046C7C8528FFA0900079267B = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					046C7CA028FFA0930079267B = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 046C7C8528FFA0900079267B;
+					};
+					046C7CAA28FFA0930079267B = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 046C7C8528FFA0900079267B;
+					};
+				};
+			};
+			buildConfigurationList = 046C7C8128FFA0900079267B /* Build configuration list for PBXProject "SemaphoreDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046C7C7D28FFA0900079267B;
+			productRefGroup = 046C7C8728FFA0900079267B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046C7C8528FFA0900079267B /* SemaphoreDemo */,
+				046C7CA028FFA0930079267B /* SemaphoreDemoTests */,
+				046C7CAA28FFA0930079267B /* SemaphoreDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046C7C8428FFA0900079267B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046C7C9928FFA0930079267B /* LaunchScreen.storyboard in Resources */,
+				046C7C9628FFA0930079267B /* Assets.xcassets in Resources */,
+				046C7C9428FFA0900079267B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046C7C9F28FFA0930079267B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046C7CA928FFA0930079267B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10C6EAAC26A1DD2BF677746B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SemaphoreDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1286043E2B0F2144E0BDF77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SemaphoreDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D970F17D1918B41C6ECC8B51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SemaphoreDemo-SemaphoreDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB49976A784D782BFB2B7DE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SemaphoreDemo/Pods-SemaphoreDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SemaphoreDemo/Pods-SemaphoreDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SemaphoreDemo/Pods-SemaphoreDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7C8BEC1FD5953C86156DE50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SemaphoreDemo-SemaphoreDemoUITests/Pods-SemaphoreDemo-SemaphoreDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SemaphoreDemo-SemaphoreDemoUITests/Pods-SemaphoreDemo-SemaphoreDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SemaphoreDemo-SemaphoreDemoUITests/Pods-SemaphoreDemo-SemaphoreDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046C7C8228FFA0900079267B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046C7C9128FFA0900079267B /* ViewController.m in Sources */,
+				046C7C8B28FFA0900079267B /* AppDelegate.m in Sources */,
+				046C7C9C28FFA0930079267B /* main.m in Sources */,
+				046C7C8E28FFA0900079267B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046C7C9D28FFA0930079267B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046C7CA628FFA0930079267B /* SemaphoreDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046C7CA728FFA0930079267B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046C7CB228FFA0930079267B /* SemaphoreDemoUITestsLaunchTests.m in Sources */,
+				046C7CB028FFA0930079267B /* SemaphoreDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046C7CA328FFA0930079267B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046C7C8528FFA0900079267B /* SemaphoreDemo */;
+			targetProxy = 046C7CA228FFA0930079267B /* PBXContainerItemProxy */;
+		};
+		046C7CAD28FFA0930079267B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046C7C8528FFA0900079267B /* SemaphoreDemo */;
+			targetProxy = 046C7CAC28FFA0930079267B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046C7C9228FFA0900079267B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046C7C9328FFA0900079267B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046C7C9728FFA0930079267B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046C7C9828FFA0930079267B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046C7CB328FFA0930079267B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		046C7CB428FFA0930079267B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046C7CB628FFA0930079267B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A09A8C70C6F537394BBC0313 /* Pods-SemaphoreDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SemaphoreDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luke.SemaphoreDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046C7CB728FFA0930079267B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB26B7431F43A95F303DC22 /* Pods-SemaphoreDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SemaphoreDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luke.SemaphoreDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		046C7CB928FFA0930079267B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87EF9E7C0A63FC662BD17762 /* Pods-SemaphoreDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luke.SemaphoreDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SemaphoreDemo.app/SemaphoreDemo";
+			};
+			name = Debug;
+		};
+		046C7CBA28FFA0930079267B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F63E1F9A82B1E8486CE5D945 /* Pods-SemaphoreDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luke.SemaphoreDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SemaphoreDemo.app/SemaphoreDemo";
+			};
+			name = Release;
+		};
+		046C7CBC28FFA0930079267B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B405D8F42EB61CC4639F38 /* Pods-SemaphoreDemo-SemaphoreDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luke.SemaphoreDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SemaphoreDemo;
+			};
+			name = Debug;
+		};
+		046C7CBD28FFA0930079267B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF7A288007B9694636A9A8D /* Pods-SemaphoreDemo-SemaphoreDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luke.SemaphoreDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SemaphoreDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046C7C8128FFA0900079267B /* Build configuration list for PBXProject "SemaphoreDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046C7CB328FFA0930079267B /* Debug */,
+				046C7CB428FFA0930079267B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046C7CB528FFA0930079267B /* Build configuration list for PBXNativeTarget "SemaphoreDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046C7CB628FFA0930079267B /* Debug */,
+				046C7CB728FFA0930079267B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046C7CB828FFA0930079267B /* Build configuration list for PBXNativeTarget "SemaphoreDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046C7CB928FFA0930079267B /* Debug */,
+				046C7CBA28FFA0930079267B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046C7CBB28FFA0930079267B /* Build configuration list for PBXNativeTarget "SemaphoreDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046C7CBC28FFA0930079267B /* Debug */,
+				046C7CBD28FFA0930079267B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046C7C7E28FFA0900079267B /* Project object */;
+}

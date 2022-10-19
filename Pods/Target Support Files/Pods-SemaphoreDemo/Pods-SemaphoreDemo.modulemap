@@ -1,0 +1,6 @@
+framework module Pods_SemaphoreDemo {
+  umbrella header "Pods-SemaphoreDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

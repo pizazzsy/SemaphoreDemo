@@ -1,0 +1,6 @@
+framework module Pods_SemaphoreDemo_SemaphoreDemoUITests {
+  umbrella header "Pods-SemaphoreDemo-SemaphoreDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
